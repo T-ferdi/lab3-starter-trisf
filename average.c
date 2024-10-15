@@ -8,7 +8,7 @@
 int main(int argc, char *argv[]) {
     int num_args = argc - 1; // argv[0] is program name
     if (num_args < 2) {
-        printf("Error: Please provide at least two numbers.\nUsage: %s <number 1> <number 2> ...\n", argv[0]);
+        printf("ERROR: Please provide at least two numbers.\nUsage: %s <number 1> <number 2> ...\n", argv[0]);
         return 1;
     }
 
